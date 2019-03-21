@@ -7,7 +7,7 @@
  * Copyright 2014-2018 Webcreate (Jeroen Fiege)
  */
 
-window.IASCallbacks = function (aJquery) {
+var IASCallbacks = function (aJquery) {
   this.list = [];
   this.fireStack = [];
   this.isFiring = false;
@@ -162,3 +162,5 @@ IASCallbacks.prototype = {
     this.isDisabled = false;
   }
 };
+
+export default IASCallbacks;
