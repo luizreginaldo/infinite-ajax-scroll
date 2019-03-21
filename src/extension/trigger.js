@@ -162,3 +162,5 @@ IASTriggerExtension.prototype.defaults = {
  * @type {number}
  */
 IASTriggerExtension.prototype.priority = 1000;
+
+export default IASTriggerExtension;

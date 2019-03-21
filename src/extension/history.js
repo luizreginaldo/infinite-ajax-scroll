@@ -8,6 +8,8 @@
  * Copyright 2014-2018 Webcreate (Jeroen Fiege)
  */
 
+import IASCallbacks from '../callbacks';
+
 var IASHistoryExtension = function (options) {
   options = jQuery.extend({}, this.defaults, options);
 
@@ -219,3 +221,5 @@ IASHistoryExtension.prototype.prev = function () {
 IASHistoryExtension.prototype.defaults = {
   prev: ".prev"
 };
+
+export default IASHistoryExtension;

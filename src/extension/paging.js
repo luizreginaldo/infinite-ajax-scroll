@@ -8,6 +8,8 @@
  * Copyright 2014-2018 Webcreate (Jeroen Fiege)
  */
 
+import IASCallbacks from '../callbacks';
+
 var IASPagingExtension = function() {
   this.ias = null;
   this.pagebreaks = [[0, document.location.toString()]];
@@ -168,3 +170,5 @@ IASPagingExtension.prototype.getCurrentPagebreak = function(scrollOffset) {
  * @type {number}
  */
 IASPagingExtension.prototype.priority = 500;
+
+export default IASPagingExtension;

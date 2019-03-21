@@ -53,3 +53,5 @@ IASNoneLeftExtension.prototype.defaults = {
   text: 'You reached the end.',
   html: '<div class="ias-noneleft" style="text-align: center;">{text}</div>'
 };
+
+export default IASNoneLeftExtension;

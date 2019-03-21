@@ -10,8 +10,9 @@
  *
  * Copyright 2014-2018 Webcreate (Jeroen Fiege)
  */
+import IASCallbacks from './callbacks';
 
-(function($) {
+export default (($) => {
 
   'use strict';
 
